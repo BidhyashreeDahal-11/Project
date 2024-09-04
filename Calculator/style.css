@@ -1,0 +1,66 @@
+
+body{
+    display: flex; /* Establish a flex container, enabling flexible layout for it's children */
+    flex-direction: column; /* Align child element in a column*/
+    align-items: center; /* Centers child horizontally within a flex container*/
+    justify-content: center; /*Centers child vertically within a flex container*/
+    height:70vh ;
+}
+.calculator{
+    display: flex;  /* Establish a flex container, enabling flexible layout for it's children */
+    flex-direction: column; /* Align child element in a column*/
+    align-items: center; /* Centers child horizontally within a flex container*/
+    justify-content: center; /*Centers child vertically within a flex container*/
+    border: 2px solid #333;        /* A solid, dark gray or black border */
+    border-radius: 5px;           /* Slightly rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px; /* Soft shadow for a subtle 3D effect */
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.429); /* Sets the height of the container to 70% of the viewport height */
+}
+
+.large-btn {  
+    display: flex;         
+    flex-direction: row;  
+    justify-content: space-evenly; /* Evenly space buttons */  
+    margin: 0;            
+    padding: 0;           
+}
+
+.large-btn .lbutton{
+    width: 196px;
+    height: 50px;
+    color:rgb(0, 119, 255) ;
+    background-color: rgba(128, 0, 128, 0.826);
+    margin:0;
+    padding:0;
+    border-radius: 3px;
+    
+}
+
+.small-btn .row {  
+    display: flex;         /* Align buttons in a row */  
+    margin: 0;            /* Reset margin to prevent space between rows */  
+}  
+
+.small-btn .button{
+    width:98px;
+    height: 50px;
+    color: rgba(139, 0, 32, 0.872);
+    background-color: rgba(0, 166, 255, 0.842);
+    border-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    margin: 0%;
+    padding: 0%;
+   
+}
+.input{
+    width: 385px;
+    border-color: rgba(0, 0, 0, 0.582);
+    height: 50px;
+    border-radius: 5px;
+    border-style:double; 
+    background-color: rgba(255, 255, 255, 0.89)
+
+}
+
